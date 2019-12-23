@@ -1,7 +1,8 @@
 const mySQL = require("mySQL");
 const inquirer = require("inquirer");
 
-askUser() {
+// prompting the user and giving them options to add an update
+askUser() [
     inquirer
         type: "list",
         name: "name",
@@ -17,7 +18,9 @@ askUser() {
         ];
 
         switch (method) [
-            
+            case 1:
+                "Add department"
+                
         ]
 
 }
